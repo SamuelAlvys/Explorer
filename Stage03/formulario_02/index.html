@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>Mentoria</h1>
+
+            <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+        </header>
+
+        <form id="my-form">
+            <fieldset>
+                <div class="fieldset-wrapper-1">
+                    <legend>Informações Pessoais</legend>
+                </div>
+
+                <div class="input-name">
+                    <div class="input-wrapper">
+                        <label for="name">Nome</label>
+                        <input type="text" name="" id="name">
+                    </div>
+                    
+                        <div class="input-wrapper">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="" id="last-name">
+                    </div>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email <span>(digite um email válido)</span></label>
+                    <input type="email" name="" id="email">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="last-name">Senha <span>(mínimo de 6 caracteres)</span> </label>
+                    <input type="password" name="" id="last-name">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Informações do mentor</legend>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="name-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                    <input type="text" name="" id="name-mentor">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                <legend>Seus horários disponíveis</legend></div>
+
+                    <h2>Primeira mentoria</h2>
+                <div class="times">
+                    <div class="input-wrapper">
+                        <label for="date">Data <span>(DD/MM/AA)</span></label>
+                        <input type="date" name="" id="date">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">Das</label>
+                        <input type="time" name="" id="">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">Até</label>
+                        <input type="time" name="" id="">
+                    </div>
+                </div>
+
+                <h2>Segunda mentoria</h2>
+
+                <div class="times">
+                    <div class="input-wrapper">
+                        <label for="date">Data <span>(DD/MM/AA)</span></label>
+                        <input type="date" name="" id="date">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">Das</label>
+                        <input type="time" name="" id="">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">Até</label>
+                        <input type="time" name="" id="">
+                    </div>
+                 </div>
+
+            </fieldset>
+        </form>
+        <footer>
+            <div class="form-buttons">
+                <button class="button" type="submit" form="my-form" >SALVAR
+                </button>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
